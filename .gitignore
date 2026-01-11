@@ -1,0 +1,32 @@
+# Dependencies
+node_modules/
+package-lock.json
+
+# Build output
+dist/
+screenshots/
+
+# Environment files
+.env
+
+# Keep template files
+!.env.development
+!.env.production
+
+# Test results and logs
+*.log
+# api-test-log.json
+# api-test-results.json
+# large-api-test-log.json
+# large-api-test-results.json
+
+# IDE
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+*.session.json
+.chrome-profile/
+
+*:Zone.Identifier

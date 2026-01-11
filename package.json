@@ -1,0 +1,28 @@
+{
+  "name": "grok-scraper",
+  "version": "1.0.0",
+  "description": "Unauthenticated Grok scraper for cloro.dev integration",
+  "main": "dist/src/api/server.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "npm run build && NODE_ENV=production node dist/src/api/server.js",
+    "dev": "npm run build && NODE_ENV=development node dist/src/api/server.js",
+    "test:api": "npm run build && NODE_ENV=development node dist/tests/test-api.js",
+    "test:large": "npm run build && NODE_ENV=production node dist/tests/test-large-api.js",
+    "clean": "rm -rf dist"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "",
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "express": "^5.2.1",
+    "patchright": "^1.57.0",
+    "playwright": "^1.57.0"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.6",
+    "@types/node": "^25.0.3",
+    "typescript": "^5.9.3"
+  }
+}

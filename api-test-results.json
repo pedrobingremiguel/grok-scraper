@@ -1,0 +1,174 @@
+{
+  "timestamp": "2026-01-11T13:57:41.331Z",
+  "configuration": {
+    "apiUrl": "http://localhost:3002",
+    "endpoint": "/v1/monitor/grok",
+    "totalRequests": 16,
+    "concurrentRequests": 4,
+    "batchSize": 16,
+    "batchDelayMs": 200,
+    "maxRetries": 1,
+    "targetSuccessRate": 0.9
+  },
+  "statistics": {
+    "totalRequests": 16,
+    "successfulRequests": 16,
+    "failedRequests": 0,
+    "retriedRequests": 0,
+    "successRate": 1,
+    "avgDurationMs": 30295.4375,
+    "minDurationMs": 6535,
+    "maxDurationMs": 79828,
+    "p50DurationMs": 22975,
+    "p95DurationMs": 79828,
+    "p99DurationMs": 79828,
+    "totalDurationSec": 136.545,
+    "throughputReqPerSec": 0.11717748727525726
+  },
+  "results": [
+    {
+      "requestId": "req_1",
+      "prompt": "What is 2+2?",
+      "success": true,
+      "durationMs": 14413,
+      "attempts": 1,
+      "responseText": "2 + 2 = 4 😄",
+      "error": null
+    },
+    {
+      "requestId": "req_2",
+      "prompt": "What color is the sky?",
+      "success": true,
+      "durationMs": 20800,
+      "attempts": 1,
+      "responseText": "The sky is blue 😄\n(Well... most of the time during the day when the Sun is up and there aren't too many clouds!)\nHere's why in one sentence:\nSunlight gets scattered by air molecules, and blue light s",
+      "error": null
+    },
+    {
+      "requestId": "req_3",
+      "prompt": "How many days in a week?",
+      "success": true,
+      "durationMs": 76320,
+      "attempts": 1,
+      "responseText": "There are 7 days in a week 😏",
+      "error": null
+    },
+    {
+      "requestId": "req_4",
+      "prompt": "What is H2O?",
+      "success": true,
+      "durationMs": 17085,
+      "attempts": 1,
+      "responseText": "H₂O is the chemical formula for water.\nIt means each water molecule consists of two hydrogen atoms (H) bonded to one oxygen atom (O).\nHere are some visual representations of the famous water molecule:",
+      "error": null
+    },
+    {
+      "requestId": "req_5",
+      "prompt": "Spell 'cat'.",
+      "success": true,
+      "durationMs": 6535,
+      "attempts": 1,
+      "responseText": "C-A-T 🐱",
+      "error": null
+    },
+    {
+      "requestId": "req_6",
+      "prompt": "What is 10-3?",
+      "success": true,
+      "durationMs": 23266,
+      "attempts": 1,
+      "responseText": "10 - 3 = 7 😄",
+      "error": null
+    },
+    {
+      "requestId": "req_7",
+      "prompt": "Name a color.",
+      "success": true,
+      "durationMs": 22975,
+      "attempts": 1,
+      "responseText": "Blue 😏",
+      "error": null
+    },
+    {
+      "requestId": "req_8",
+      "prompt": "What is ice made of?",
+      "success": true,
+      "durationMs": 51816,
+      "attempts": 1,
+      "responseText": "Ice is made of water.\nMore precisely:\nIce is the solid form of water (H₂O).\nIt consists of the same molecules as liquid water and water vapor — two hydrogen atoms bonded to one oxygen atom — but in ic",
+      "error": null
+    },
+    {
+      "requestId": "req_9",
+      "prompt": "How many eyes do humans have?",
+      "success": true,
+      "durationMs": 27015,
+      "attempts": 1,
+      "responseText": "Humans have 2 eyes.\n(Usually located on the front of the face, working together to give us binocular vision and depth perception 😄)",
+      "error": null
+    },
+    {
+      "requestId": "req_10",
+      "prompt": "What comes after Monday?",
+      "success": true,
+      "durationMs": 79828,
+      "attempts": 1,
+      "responseText": "Tuesday 😏",
+      "error": null
+    },
+    {
+      "requestId": "req_11",
+      "prompt": "What is the capital of France?",
+      "success": true,
+      "durationMs": 24720,
+      "attempts": 1,
+      "responseText": "The capital of France is Paris. 🇫🇷✨",
+      "error": null
+    },
+    {
+      "requestId": "req_12",
+      "prompt": "Who wrote Hamlet?",
+      "success": true,
+      "durationMs": 46910,
+      "attempts": 1,
+      "responseText": "William Shakespeare wrote Hamlet.\nHamlet (full title: The Tragedy of Hamlet, Prince of Denmark) is one of Shakespeare's most famous plays, believed to have been written between 1599 and 1601. Shakespe",
+      "error": null
+    },
+    {
+      "requestId": "req_13",
+      "prompt": "Name a planet in our solar system.",
+      "success": true,
+      "durationMs": 7469,
+      "attempts": 1,
+      "responseText": "Jupiter! 🪐",
+      "error": null
+    },
+    {
+      "requestId": "req_14",
+      "prompt": "What year did WWII end?",
+      "success": true,
+      "durationMs": 10165,
+      "attempts": 1,
+      "responseText": "World War II ended in 1945.\n\nThe war in Europe ended on May 8, 1945 (Victory in Europe Day / VE Day)\nThe war officially ended worldwide on September 2, 1945 (when Japan formally surrendered aboard the",
+      "error": null
+    },
+    {
+      "requestId": "req_15",
+      "prompt": "What is the largest mammal?",
+      "success": true,
+      "durationMs": 44456,
+      "attempts": 1,
+      "responseText": "The largest mammal on Earth — and indeed the largest animal that has ever existed — is the blue whale (Balaenoptera musculus).\nThese magnificent marine giants can reach lengths of up to 30 meters (abo",
+      "error": null
+    },
+    {
+      "requestId": "req_16",
+      "prompt": "Name the first U.S. president.",
+      "success": true,
+      "durationMs": 10954,
+      "attempts": 1,
+      "responseText": "George Washington was the first President of the United States.\nHe served from April 30, 1789, to March 4, 1797.",
+      "error": null
+    }
+  ]
+}

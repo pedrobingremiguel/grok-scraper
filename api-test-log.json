@@ -1,0 +1,1134 @@
+{
+  "startTime": "2026-01-11T13:55:24.758Z",
+  "totalRequests": 16,
+  "successCount": 16,
+  "failureCount": 0,
+  "requests": [
+    {
+      "timestamp": "2026-01-11T13:55:24.784Z",
+      "requestId": "req_1",
+      "method": "POST",
+      "url": "http://localhost:3002/v1/monitor/grok",
+      "headers": {
+        "Content-Type": "application/json",
+        "Authorization": "Bearer test-api-key"
+      },
+      "body": {
+        "prompt": "What is 2+2?",
+        "country": "US",
+        "include": {
+          "markdown": false
+        }
+      }
+    },
+    {
+      "timestamp": "2026-01-11T13:55:24.785Z",
+      "requestId": "req_2",
+      "method": "POST",
+      "url": "http://localhost:3002/v1/monitor/grok",
+      "headers": {
+        "Content-Type": "application/json",
+        "Authorization": "Bearer test-api-key"
+      },
+      "body": {
+        "prompt": "What color is the sky?",
+        "country": "US",
+        "include": {
+          "markdown": false
+        }
+      }
+    },
+    {
+      "timestamp": "2026-01-11T13:55:24.785Z",
+      "requestId": "req_3",
+      "method": "POST",
+      "url": "http://localhost:3002/v1/monitor/grok",
+      "headers": {
+        "Content-Type": "application/json",
+        "Authorization": "Bearer test-api-key"
+      },
+      "body": {
+        "prompt": "How many days in a week?",
+        "country": "US",
+        "include": {
+          "markdown": false
+        }
+      }
+    },
+    {
+      "timestamp": "2026-01-11T13:55:24.786Z",
+      "requestId": "req_4",
+      "method": "POST",
+      "url": "http://localhost:3002/v1/monitor/grok",
+      "headers": {
+        "Content-Type": "application/json",
+        "Authorization": "Bearer test-api-key"
+      },
+      "body": {
+        "prompt": "What is H2O?",
+        "country": "US",
+        "include": {
+          "markdown": false
+        }
+      }
+    },
+    {
+      "timestamp": "2026-01-11T13:55:39.198Z",
+      "requestId": "req_5",
+      "method": "POST",
+      "url": "http://localhost:3002/v1/monitor/grok",
+      "headers": {
+        "Content-Type": "application/json",
+        "Authorization": "Bearer test-api-key"
+      },
+      "body": {
+        "prompt": "Spell 'cat'.",
+        "country": "US",
+        "include": {
+          "markdown": false
+        }
+      }
+    },
+    {
+      "timestamp": "2026-01-11T13:55:41.872Z",
+      "requestId": "req_6",
+      "method": "POST",
+      "url": "http://localhost:3002/v1/monitor/grok",
+      "headers": {
+        "Content-Type": "application/json",
+        "Authorization": "Bearer test-api-key"
+      },
+      "body": {
+        "prompt": "What is 10-3?",
+        "country": "US",
+        "include": {
+          "markdown": false
+        }
+      }
+    },
+    {
+      "timestamp": "2026-01-11T13:55:45.586Z",
+      "requestId": "req_7",
+      "method": "POST",
+      "url": "http://localhost:3002/v1/monitor/grok",
+      "headers": {
+        "Content-Type": "application/json",
+        "Authorization": "Bearer test-api-key"
+      },
+      "body": {
+        "prompt": "Name a color.",
+        "country": "US",
+        "include": {
+          "markdown": false
+        }
+      }
+    },
+    {
+      "timestamp": "2026-01-11T13:55:45.733Z",
+      "requestId": "req_8",
+      "method": "POST",
+      "url": "http://localhost:3002/v1/monitor/grok",
+      "headers": {
+        "Content-Type": "application/json",
+        "Authorization": "Bearer test-api-key"
+      },
+      "body": {
+        "prompt": "What is ice made of?",
+        "country": "US",
+        "include": {
+          "markdown": false
+        }
+      }
+    },
+    {
+      "timestamp": "2026-01-11T13:56:05.138Z",
+      "requestId": "req_9",
+      "method": "POST",
+      "url": "http://localhost:3002/v1/monitor/grok",
+      "headers": {
+        "Content-Type": "application/json",
+        "Authorization": "Bearer test-api-key"
+      },
+      "body": {
+        "prompt": "How many eyes do humans have?",
+        "country": "US",
+        "include": {
+          "markdown": false
+        }
+      }
+    },
+    {
+      "timestamp": "2026-01-11T13:56:08.562Z",
+      "requestId": "req_10",
+      "method": "POST",
+      "url": "http://localhost:3002/v1/monitor/grok",
+      "headers": {
+        "Content-Type": "application/json",
+        "Authorization": "Bearer test-api-key"
+      },
+      "body": {
+        "prompt": "What comes after Monday?",
+        "country": "US",
+        "include": {
+          "markdown": false
+        }
+      }
+    },
+    {
+      "timestamp": "2026-01-11T13:56:32.153Z",
+      "requestId": "req_11",
+      "method": "POST",
+      "url": "http://localhost:3002/v1/monitor/grok",
+      "headers": {
+        "Content-Type": "application/json",
+        "Authorization": "Bearer test-api-key"
+      },
+      "body": {
+        "prompt": "What is the capital of France?",
+        "country": "US",
+        "include": {
+          "markdown": false
+        }
+      }
+    },
+    {
+      "timestamp": "2026-01-11T13:56:37.550Z",
+      "requestId": "req_12",
+      "method": "POST",
+      "url": "http://localhost:3002/v1/monitor/grok",
+      "headers": {
+        "Content-Type": "application/json",
+        "Authorization": "Bearer test-api-key"
+      },
+      "body": {
+        "prompt": "Who wrote Hamlet?",
+        "country": "US",
+        "include": {
+          "markdown": false
+        }
+      }
+    },
+    {
+      "timestamp": "2026-01-11T13:56:41.106Z",
+      "requestId": "req_13",
+      "method": "POST",
+      "url": "http://localhost:3002/v1/monitor/grok",
+      "headers": {
+        "Content-Type": "application/json",
+        "Authorization": "Bearer test-api-key"
+      },
+      "body": {
+        "prompt": "Name a planet in our solar system.",
+        "country": "US",
+        "include": {
+          "markdown": false
+        }
+      }
+    },
+    {
+      "timestamp": "2026-01-11T13:56:48.576Z",
+      "requestId": "req_14",
+      "method": "POST",
+      "url": "http://localhost:3002/v1/monitor/grok",
+      "headers": {
+        "Content-Type": "application/json",
+        "Authorization": "Bearer test-api-key"
+      },
+      "body": {
+        "prompt": "What year did WWII end?",
+        "country": "US",
+        "include": {
+          "markdown": false
+        }
+      }
+    },
+    {
+      "timestamp": "2026-01-11T13:56:56.873Z",
+      "requestId": "req_15",
+      "method": "POST",
+      "url": "http://localhost:3002/v1/monitor/grok",
+      "headers": {
+        "Content-Type": "application/json",
+        "Authorization": "Bearer test-api-key"
+      },
+      "body": {
+        "prompt": "What is the largest mammal?",
+        "country": "US",
+        "include": {
+          "markdown": false
+        }
+      }
+    },
+    {
+      "timestamp": "2026-01-11T13:56:58.742Z",
+      "requestId": "req_16",
+      "method": "POST",
+      "url": "http://localhost:3002/v1/monitor/grok",
+      "headers": {
+        "Content-Type": "application/json",
+        "Authorization": "Bearer test-api-key"
+      },
+      "body": {
+        "prompt": "Name the first U.S. president.",
+        "country": "US",
+        "include": {
+          "markdown": false
+        }
+      }
+    }
+  ],
+  "responses": [
+    {
+      "timestamp": "2026-01-11T13:55:39.197Z",
+      "requestId": "req_1",
+      "statusCode": 200,
+      "durationMs": 14413,
+      "response": {
+        "success": true,
+        "result": {
+          "text": "2 + 2 = 4 😄",
+          "sources": [],
+          "markdown": "2 + 2 = 4 😄",
+          "rawResponse": [
+            {
+              "type": "message_start",
+              "message": {
+                "id": "msg_1768139739196_hstsy6pi0",
+                "role": "assistant",
+                "model": "auto"
+              }
+            },
+            {
+              "type": "message_delta",
+              "delta": {
+                "content": [
+                  {
+                    "type": "output_text_delta",
+                    "text_delta": "2 + 2 = 4 😄"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "message_stop",
+              "reason": "end_turn"
+            }
+          ],
+          "searchQueries": [],
+          "model": "auto",
+          "shoppingCards": [],
+          "entities": []
+        }
+      }
+    },
+    {
+      "timestamp": "2026-01-11T13:55:41.871Z",
+      "requestId": "req_4",
+      "statusCode": 200,
+      "durationMs": 17085,
+      "response": {
+        "success": true,
+        "result": {
+          "text": "H₂O is the chemical formula for water.\nIt means each water molecule consists of two hydrogen atoms (H) bonded to one oxygen atom (O).\nHere are some visual representations of the famous water molecule:\nkhanacademy.orgbyjus.comcommons.wikimedia.org\n\n\nQuick facts about H₂O (water):\n\nIt's a polar molecule → the oxygen side is slightly negative, hydrogen sides are slightly positive\nThis polarity allows water molecules to form hydrogen bonds with each other\nThat's why water has many special properties (high boiling point, surface tension, excellent solvent, expands when freezing, etc.)\nIt exists in three common phases on Earth:\n\nHere you can see the phase changes (solid ice → liquid water → water vapor/steam):\nergodic.ugr.esPhase diagram of water and ice\nAnd of course... this is what we usually think of when someone says \"H₂O\":\nillustrationagent.com3D Clear Liquid in a Wine Glass Water - Illustration Agent Website\nIn short: H₂O = water, the most important molecule for life on Earth! 💧",
+          "sources": [
+            {
+              "url": "https://www.khanacademy.org/science/ap-biology/chemistry-of-life/structure-of-water-and-hydrogen-bonding/a/hs-water-and-life-review",
+              "label": "https://www.khanacademy.org/science/ap-biology/chemistry-of-life/structure-of-water-and-hydrogen-bonding/a/hs-water-and-life-review",
+              "description": "Lesson summary: Water and life (article) | Khan Academy",
+              "position": 1
+            },
+            {
+              "url": "https://byjus.com/chemistry/lewis-structure-h2o/",
+              "label": "https://byjus.com/chemistry/lewis-structure-h2o/",
+              "description": "How to draw Lewis Structure for H 2 O",
+              "position": 2
+            },
+            {
+              "url": "https://commons.wikimedia.org/wiki/File:Water-3D-balls-A.png",
+              "label": "https://commons.wikimedia.org/wiki/File:Water-3D-balls-A.png",
+              "description": "File:Water-3D-balls-A.png - Wikimedia Commons",
+              "position": 3
+            },
+            {
+              "url": "https://ergodic.ugr.es/termo/lecciones/water1.html",
+              "label": "https://ergodic.ugr.es/termo/lecciones/water1.html",
+              "description": "Phase diagram of water and ice",
+              "position": 4
+            },
+            {
+              "url": "https://illustrationagent.com/style/3d-clear-liquid-in-a-wine-glass-water/",
+              "label": "https://illustrationagent.com/style/3d-clear-liquid-in-a-wine-glass-water/",
+              "description": "3D Clear Liquid in a Wine Glass Water - Illustration Agent Website",
+              "position": 5
+            }
+          ],
+          "markdown": "H₂O is the chemical formula for water.\nIt means each water molecule consists of two hydrogen atoms (H) bonded to one oxygen atom (O).\nHere are some visual representations of the famous water molecule:\nkhanacademy.orgbyjus.comcommons.wikimedia.org\n\n\nQuick facts about H₂O (water):\n\nIt's a polar molecule → the oxygen side is slightly negative, hydrogen sides are slightly positive\nThis polarity allows water molecules to form hydrogen bonds with each other\nThat's why water has many special properties (high boiling point, surface tension, excellent solvent, expands when freezing, etc.)\nIt exists in three common phases on Earth:\n\nHere you can see the phase changes (solid ice → liquid water → water vapor/steam):\nergodic.ugr.esPhase diagram of water and ice\nAnd of course... this is what we usually think of when someone says \"H₂O\":\nillustrationagent.com3D Clear Liquid in a Wine Glass Water - Illustration Agent Website\nIn short: H₂O = water, the most important molecule for life on Earth! 💧",
+          "rawResponse": [
+            {
+              "type": "message_start",
+              "message": {
+                "id": "msg_1768139741870_lg5amzpt3",
+                "role": "assistant",
+                "model": "auto"
+              }
+            },
+            {
+              "type": "message_delta",
+              "delta": {
+                "content": [
+                  {
+                    "type": "output_text_delta",
+                    "text_delta": "H₂O is the chemical formula for water.\nIt means each water molecule consists of two hydrogen atoms (H) bonded to one oxygen atom (O).\nHere are some visual representations of the famous water molecule:\nkhanacademy.orgbyjus.comcommons.wikimedia.org\n\n\nQuick facts about H₂O (water):\n\nIt's a polar molecule → the oxygen side is slightly negative, hydrogen sides are slightly positive\nThis polarity allows water molecules to form hydrogen bonds with each other\nThat's why water has many special properties (high boiling point, surface tension, excellent solvent, expands when freezing, etc.)\nIt exists in three common phases on Earth:\n\nHere you can see the phase changes (solid ice → liquid water → water vapor/steam):\nergodic.ugr.esPhase diagram of water and ice\nAnd of course... this is what we usually think of when someone says \"H₂O\":\nillustrationagent.com3D Clear Liquid in a Wine Glass Water - Illustration Agent Website\nIn short: H₂O = water, the most important molecule for life on Earth! 💧"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "message_stop",
+              "reason": "end_turn"
+            }
+          ],
+          "searchQueries": [
+            "water molecule H2O structure diagram",
+            "clear liquid water in glass",
+            "H2O water molecule 3D ball and stick model",
+            "ice water liquid steam phase changes diagram"
+          ],
+          "model": "auto",
+          "shoppingCards": [],
+          "entities": []
+        }
+      }
+    },
+    {
+      "timestamp": "2026-01-11T13:55:45.585Z",
+      "requestId": "req_2",
+      "statusCode": 200,
+      "durationMs": 20800,
+      "response": {
+        "success": true,
+        "result": {
+          "text": "The sky is blue 😄\n(Well... most of the time during the day when the Sun is up and there aren't too many clouds!)\nHere's why in one sentence:\nSunlight gets scattered by air molecules, and blue light scatters way more than red/orange → we see blue light coming from all directions in the sky. ✨",
+          "sources": [],
+          "markdown": "The sky is blue 😄\n(Well... most of the time during the day when the Sun is up and there aren't too many clouds!)\nHere's why in one sentence:\nSunlight gets scattered by air molecules, and blue light scatters way more than red/orange → we see blue light coming from all directions in the sky. ✨",
+          "rawResponse": [
+            {
+              "type": "message_start",
+              "message": {
+                "id": "msg_1768139745584_cbenvxvc7",
+                "role": "assistant",
+                "model": "auto"
+              }
+            },
+            {
+              "type": "message_delta",
+              "delta": {
+                "content": [
+                  {
+                    "type": "output_text_delta",
+                    "text_delta": "The sky is blue 😄\n(Well... most of the time during the day when the Sun is up and there aren't too many clouds!)\nHere's why in one sentence:\nSunlight gets scattered by air molecules, and blue light scatters way more than red/orange → we see blue light coming from all directions in the sky. ✨"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "message_stop",
+              "reason": "end_turn"
+            }
+          ],
+          "searchQueries": [],
+          "model": "auto",
+          "shoppingCards": [],
+          "entities": []
+        }
+      }
+    },
+    {
+      "timestamp": "2026-01-11T13:55:45.733Z",
+      "requestId": "req_5",
+      "statusCode": 200,
+      "durationMs": 6535,
+      "response": {
+        "success": true,
+        "result": {
+          "text": "C-A-T 🐱",
+          "sources": [],
+          "markdown": "C-A-T 🐱",
+          "rawResponse": [
+            {
+              "type": "message_start",
+              "message": {
+                "id": "msg_1768139745731_35e449b85",
+                "role": "assistant",
+                "model": "auto"
+              }
+            },
+            {
+              "type": "message_delta",
+              "delta": {
+                "content": [
+                  {
+                    "type": "output_text_delta",
+                    "text_delta": "C-A-T 🐱"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "message_stop",
+              "reason": "end_turn"
+            }
+          ],
+          "searchQueries": [],
+          "model": "auto",
+          "shoppingCards": [],
+          "entities": []
+        }
+      }
+    },
+    {
+      "timestamp": "2026-01-11T13:56:05.138Z",
+      "requestId": "req_6",
+      "statusCode": 200,
+      "durationMs": 23266,
+      "response": {
+        "success": true,
+        "result": {
+          "text": "10 - 3 = 7 😄",
+          "sources": [],
+          "markdown": "10 - 3 = 7 😄",
+          "rawResponse": [
+            {
+              "type": "message_start",
+              "message": {
+                "id": "msg_1768139765136_oqkv5ycyi",
+                "role": "assistant",
+                "model": "auto"
+              }
+            },
+            {
+              "type": "message_delta",
+              "delta": {
+                "content": [
+                  {
+                    "type": "output_text_delta",
+                    "text_delta": "10 - 3 = 7 😄"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "message_stop",
+              "reason": "end_turn"
+            }
+          ],
+          "searchQueries": [],
+          "model": "auto",
+          "shoppingCards": [],
+          "entities": []
+        }
+      }
+    },
+    {
+      "timestamp": "2026-01-11T13:56:08.561Z",
+      "requestId": "req_7",
+      "statusCode": 200,
+      "durationMs": 22975,
+      "response": {
+        "success": true,
+        "result": {
+          "text": "Blue 😏",
+          "sources": [],
+          "markdown": "Blue 😏",
+          "rawResponse": [
+            {
+              "type": "message_start",
+              "message": {
+                "id": "msg_1768139768559_96zwlt26w",
+                "role": "assistant",
+                "model": "auto"
+              }
+            },
+            {
+              "type": "message_delta",
+              "delta": {
+                "content": [
+                  {
+                    "type": "output_text_delta",
+                    "text_delta": "Blue 😏"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "message_stop",
+              "reason": "end_turn"
+            }
+          ],
+          "searchQueries": [],
+          "model": "auto",
+          "shoppingCards": [],
+          "entities": []
+        }
+      }
+    },
+    {
+      "timestamp": "2026-01-11T13:56:32.153Z",
+      "requestId": "req_9",
+      "statusCode": 200,
+      "durationMs": 27015,
+      "response": {
+        "success": true,
+        "result": {
+          "text": "Humans have 2 eyes.\n(Usually located on the front of the face, working together to give us binocular vision and depth perception 😄)",
+          "sources": [],
+          "markdown": "Humans have 2 eyes.\n(Usually located on the front of the face, working together to give us binocular vision and depth perception 😄)",
+          "rawResponse": [
+            {
+              "type": "message_start",
+              "message": {
+                "id": "msg_1768139792151_6mgpc7mkj",
+                "role": "assistant",
+                "model": "auto"
+              }
+            },
+            {
+              "type": "message_delta",
+              "delta": {
+                "content": [
+                  {
+                    "type": "output_text_delta",
+                    "text_delta": "Humans have 2 eyes.\n(Usually located on the front of the face, working together to give us binocular vision and depth perception 😄)"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "message_stop",
+              "reason": "end_turn"
+            }
+          ],
+          "searchQueries": [],
+          "model": "auto",
+          "shoppingCards": [],
+          "entities": []
+        }
+      }
+    },
+    {
+      "timestamp": "2026-01-11T13:56:37.549Z",
+      "requestId": "req_8",
+      "statusCode": 200,
+      "durationMs": 51816,
+      "response": {
+        "success": true,
+        "result": {
+          "text": "Ice is made of water.\nMore precisely:\nIce is the solid form of water (H₂O).\nIt consists of the same molecules as liquid water and water vapor — two hydrogen atoms bonded to one oxygen atom — but in ice, these H₂O molecules are arranged in a very organized, repeating hexagonal crystal lattice structure.\nThat's why ice:\n\nIs less dense than liquid water (which is very unusual for solids)\nFloats on water\nHas that beautiful hexagonal symmetry you see in snowflakes\n\nQuick summary:\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nStateNameMolecular arrangementDensitySolidIceHighly organized crystal lattice~0.917 g/cm³LiquidWaterSomewhat organized, can move freely1.00 g/cm³GasWater vaporCompletely random, far apartVery low\nSo when someone asks \"What is ice made of?\" the shortest true answer is:\nIce is made of frozen water. 😄",
+          "sources": [],
+          "markdown": "Ice is made of water.\nMore precisely:\nIce is the solid form of water (H₂O).\nIt consists of the same molecules as liquid water and water vapor — two hydrogen atoms bonded to one oxygen atom — but in ice, these H₂O molecules are arranged in a very organized, repeating hexagonal crystal lattice structure.\nThat's why ice:\n\nIs less dense than liquid water (which is very unusual for solids)\nFloats on water\nHas that beautiful hexagonal symmetry you see in snowflakes\n\nQuick summary:\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nStateNameMolecular arrangementDensitySolidIceHighly organized crystal lattice~0.917 g/cm³LiquidWaterSomewhat organized, can move freely1.00 g/cm³GasWater vaporCompletely random, far apartVery low\nSo when someone asks \"What is ice made of?\" the shortest true answer is:\nIce is made of frozen water. 😄",
+          "rawResponse": [
+            {
+              "type": "message_start",
+              "message": {
+                "id": "msg_1768139797547_2034dino4",
+                "role": "assistant",
+                "model": "auto"
+              }
+            },
+            {
+              "type": "message_delta",
+              "delta": {
+                "content": [
+                  {
+                    "type": "output_text_delta",
+                    "text_delta": "Ice is made of water.\nMore precisely:\nIce is the solid form of water (H₂O).\nIt consists of the same molecules as liquid water and water vapor — two hydrogen atoms bonded to one oxygen atom — but in ice, these H₂O molecules are arranged in a very organized, repeating hexagonal crystal lattice structure.\nThat's why ice:\n\nIs less dense than liquid water (which is very unusual for solids)\nFloats on water\nHas that beautiful hexagonal symmetry you see in snowflakes\n\nQuick summary:\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nStateNameMolecular arrangementDensitySolidIceHighly organized crystal lattice~0.917 g/cm³LiquidWaterSomewhat organized, can move freely1.00 g/cm³GasWater vaporCompletely random, far apartVery low\nSo when someone asks \"What is ice made of?\" the shortest true answer is:\nIce is made of frozen water. 😄"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "message_stop",
+              "reason": "end_turn"
+            }
+          ],
+          "searchQueries": [],
+          "model": "auto",
+          "shoppingCards": [],
+          "entities": []
+        }
+      }
+    },
+    {
+      "timestamp": "2026-01-11T13:56:41.105Z",
+      "requestId": "req_3",
+      "statusCode": 200,
+      "durationMs": 76320,
+      "response": {
+        "success": true,
+        "result": {
+          "text": "There are 7 days in a week 😏",
+          "sources": [],
+          "markdown": "There are 7 days in a week 😏",
+          "rawResponse": [
+            {
+              "type": "message_start",
+              "message": {
+                "id": "msg_1768139801104_e1wkokkt6",
+                "role": "assistant",
+                "model": "auto"
+              }
+            },
+            {
+              "type": "message_delta",
+              "delta": {
+                "content": [
+                  {
+                    "type": "output_text_delta",
+                    "text_delta": "There are 7 days in a week 😏"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "message_stop",
+              "reason": "end_turn"
+            }
+          ],
+          "searchQueries": [],
+          "model": "auto",
+          "shoppingCards": [],
+          "entities": []
+        }
+      }
+    },
+    {
+      "timestamp": "2026-01-11T13:56:48.575Z",
+      "requestId": "req_13",
+      "statusCode": 200,
+      "durationMs": 7469,
+      "response": {
+        "success": true,
+        "result": {
+          "text": "Jupiter! 🪐",
+          "sources": [],
+          "markdown": "Jupiter! 🪐",
+          "rawResponse": [
+            {
+              "type": "message_start",
+              "message": {
+                "id": "msg_1768139808574_876fvf0s7",
+                "role": "assistant",
+                "model": "auto"
+              }
+            },
+            {
+              "type": "message_delta",
+              "delta": {
+                "content": [
+                  {
+                    "type": "output_text_delta",
+                    "text_delta": "Jupiter! 🪐"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "message_stop",
+              "reason": "end_turn"
+            }
+          ],
+          "searchQueries": [],
+          "model": "auto",
+          "shoppingCards": [],
+          "entities": []
+        }
+      }
+    },
+    {
+      "timestamp": "2026-01-11T13:56:56.873Z",
+      "requestId": "req_11",
+      "statusCode": 200,
+      "durationMs": 24720,
+      "response": {
+        "success": true,
+        "result": {
+          "text": "The capital of France is Paris. 🇫🇷✨",
+          "sources": [],
+          "markdown": "The capital of France is Paris. 🇫🇷✨",
+          "rawResponse": [
+            {
+              "type": "message_start",
+              "message": {
+                "id": "msg_1768139816872_cfav0uslq",
+                "role": "assistant",
+                "model": "auto"
+              }
+            },
+            {
+              "type": "message_delta",
+              "delta": {
+                "content": [
+                  {
+                    "type": "output_text_delta",
+                    "text_delta": "The capital of France is Paris. 🇫🇷✨"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "message_stop",
+              "reason": "end_turn"
+            }
+          ],
+          "searchQueries": [],
+          "model": "auto",
+          "shoppingCards": [],
+          "entities": []
+        }
+      }
+    },
+    {
+      "timestamp": "2026-01-11T13:56:58.741Z",
+      "requestId": "req_14",
+      "statusCode": 200,
+      "durationMs": 10165,
+      "response": {
+        "success": true,
+        "result": {
+          "text": "World War II ended in 1945.\n\nThe war in Europe ended on May 8, 1945 (Victory in Europe Day / VE Day)\nThe war officially ended worldwide on September 2, 1945 (when Japan formally surrendered aboard the USS Missouri, celebrated as Victory over Japan Day / VJ Day)\n\nSo while different dates are sometimes referenced depending on the theater of war, the universally accepted year WWII ended is 1945.",
+          "sources": [],
+          "markdown": "World War II ended in 1945.\n\nThe war in Europe ended on May 8, 1945 (Victory in Europe Day / VE Day)\nThe war officially ended worldwide on September 2, 1945 (when Japan formally surrendered aboard the USS Missouri, celebrated as Victory over Japan Day / VJ Day)\n\nSo while different dates are sometimes referenced depending on the theater of war, the universally accepted year WWII ended is 1945.",
+          "rawResponse": [
+            {
+              "type": "message_start",
+              "message": {
+                "id": "msg_1768139818740_js3q2c8lg",
+                "role": "assistant",
+                "model": "auto"
+              }
+            },
+            {
+              "type": "message_delta",
+              "delta": {
+                "content": [
+                  {
+                    "type": "output_text_delta",
+                    "text_delta": "World War II ended in 1945.\n\nThe war in Europe ended on May 8, 1945 (Victory in Europe Day / VE Day)\nThe war officially ended worldwide on September 2, 1945 (when Japan formally surrendered aboard the USS Missouri, celebrated as Victory over Japan Day / VJ Day)\n\nSo while different dates are sometimes referenced depending on the theater of war, the universally accepted year WWII ended is 1945."
+                  }
+                ]
+              }
+            },
+            {
+              "type": "message_stop",
+              "reason": "end_turn"
+            }
+          ],
+          "searchQueries": [],
+          "model": "auto",
+          "shoppingCards": [],
+          "entities": []
+        }
+      }
+    },
+    {
+      "timestamp": "2026-01-11T13:57:09.696Z",
+      "requestId": "req_16",
+      "statusCode": 200,
+      "durationMs": 10954,
+      "response": {
+        "success": true,
+        "result": {
+          "text": "George Washington was the first President of the United States.\nHe served from April 30, 1789, to March 4, 1797.",
+          "sources": [],
+          "markdown": "George Washington was the first President of the United States.\nHe served from April 30, 1789, to March 4, 1797.",
+          "rawResponse": [
+            {
+              "type": "message_start",
+              "message": {
+                "id": "msg_1768139829695_lmddrrq8g",
+                "role": "assistant",
+                "model": "auto"
+              }
+            },
+            {
+              "type": "message_delta",
+              "delta": {
+                "content": [
+                  {
+                    "type": "output_text_delta",
+                    "text_delta": "George Washington was the first President of the United States.\nHe served from April 30, 1789, to March 4, 1797."
+                  }
+                ]
+              }
+            },
+            {
+              "type": "message_stop",
+              "reason": "end_turn"
+            }
+          ],
+          "searchQueries": [],
+          "model": "auto",
+          "shoppingCards": [],
+          "entities": []
+        }
+      }
+    },
+    {
+      "timestamp": "2026-01-11T13:57:24.460Z",
+      "requestId": "req_12",
+      "statusCode": 200,
+      "durationMs": 46910,
+      "response": {
+        "success": true,
+        "result": {
+          "text": "William Shakespeare wrote Hamlet.\nHamlet (full title: The Tragedy of Hamlet, Prince of Denmark) is one of Shakespeare's most famous plays, believed to have been written between 1599 and 1601. Shakespeare is universally recognized by historians, literary scholars, and the original publications as its author.",
+          "sources": [],
+          "markdown": "William Shakespeare wrote Hamlet.\nHamlet (full title: The Tragedy of Hamlet, Prince of Denmark) is one of Shakespeare's most famous plays, believed to have been written between 1599 and 1601. Shakespeare is universally recognized by historians, literary scholars, and the original publications as its author.",
+          "rawResponse": [
+            {
+              "type": "message_start",
+              "message": {
+                "id": "msg_1768139844459_b58jzwzsr",
+                "role": "assistant",
+                "model": "auto"
+              }
+            },
+            {
+              "type": "message_delta",
+              "delta": {
+                "content": [
+                  {
+                    "type": "output_text_delta",
+                    "text_delta": "William Shakespeare wrote Hamlet.\nHamlet (full title: The Tragedy of Hamlet, Prince of Denmark) is one of Shakespeare's most famous plays, believed to have been written between 1599 and 1601. Shakespeare is universally recognized by historians, literary scholars, and the original publications as its author."
+                  }
+                ]
+              }
+            },
+            {
+              "type": "message_stop",
+              "reason": "end_turn"
+            }
+          ],
+          "searchQueries": [],
+          "model": "auto",
+          "shoppingCards": [],
+          "entities": []
+        }
+      }
+    },
+    {
+      "timestamp": "2026-01-11T13:57:28.390Z",
+      "requestId": "req_10",
+      "statusCode": 200,
+      "durationMs": 79828,
+      "response": {
+        "success": true,
+        "result": {
+          "text": "Tuesday 😏",
+          "sources": [],
+          "markdown": "Tuesday 😏",
+          "rawResponse": [
+            {
+              "type": "message_start",
+              "message": {
+                "id": "msg_1768139848389_axz485hwk",
+                "role": "assistant",
+                "model": "auto"
+              }
+            },
+            {
+              "type": "message_delta",
+              "delta": {
+                "content": [
+                  {
+                    "type": "output_text_delta",
+                    "text_delta": "Tuesday 😏"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "message_stop",
+              "reason": "end_turn"
+            }
+          ],
+          "searchQueries": [],
+          "model": "auto",
+          "shoppingCards": [],
+          "entities": []
+        }
+      }
+    },
+    {
+      "timestamp": "2026-01-11T13:57:41.329Z",
+      "requestId": "req_15",
+      "statusCode": 200,
+      "durationMs": 44456,
+      "response": {
+        "success": true,
+        "result": {
+          "text": "The largest mammal on Earth — and indeed the largest animal that has ever existed — is the blue whale (Balaenoptera musculus).\nThese magnificent marine giants can reach lengths of up to 30 meters (about 100 feet), with the longest reliably recorded specimen measuring around 33 meters. The heaviest verified specimen weighed 190 tonnes (about 418,000 pounds), though some estimates suggest exceptional individuals could have approached or exceeded 200 tonnes.\nHere are some stunning views of these incredible creatures in their natural ocean habitat:\ndreamstime.comoceanlight.com\n\nTo give you a sense of just how massive they are, here's a helpful size comparison showing a blue whale alongside humans, an elephant, and other large animals:\ntreehugger.com11 Facts About Blue Whales, the Largest Animal on Earth\nFor context:\n\nA blue whale's heart alone can weigh as much as a small car (~180 kg).\nIts tongue can weigh as much as an elephant.\nA newborn blue whale calf is already about 7–8 meters long and weighs around 3 tonnes — roughly the size of a large SUV!\n\nBy comparison, the largest land mammal is the African bush elephant, which tops out at around 6–7 tonnes — impressive, but only a fraction of the blue whale's size. The ocean's buoyancy allows these colossal mammals to grow to sizes impossible for land animals.\nBlue whales are currently endangered, but they remain the undisputed heavyweight champions of the animal kingdom! 🐋",
+          "sources": [
+            {
+              "url": "https://en.wikipedia.org/wiki/Largest_and_heaviest_animals",
+              "label": "en.wikipedia.org",
+              "description": "Whaling factories are usually enlisted to help accomplish the task, but it still remains difficult, and most weighings have been done by parts of flensed whales, leaving much room for error. Mathematical formulas have also been devised to estimate the average weight of various whale species based on body length, but this method is equally prone to inaccuracy. The heaviest land animals are all mammals.",
+              "position": 1
+            },
+            {
+              "url": "https://en.wikipedia.org/wiki/List_of_heaviest_land_mammals",
+              "label": "en.wikipedia.org",
+              "description": "The heaviest land mammal is the African bush elephant, which has a weight of up to 10.1 t (11.1 short tons). It measures 10–13 ft (3–4 m) at the shoulder and consumes around 230 kg (500 lb) of vegetation a day. Its tusks have been known to reach 2.7 m (9 ft) in length, although in modern populations they are most commonly recorded at a length of 0.6–0.9 m (2 ft 0 in – 2 ft 11 in).",
+              "position": 2
+            },
+            {
+              "url": "https://www.guinnessworldrecords.com/world-records/largest-mammal",
+              "label": "guinnessworldrecords.com",
+              "description": "The barely visible ovum of the female blue-whale weighing a fraction of a milligram grows to a weight of c. 26 tonnes (57,320 lb) in 22.75 months, made up of 10.75 months' gestation and the first 12 months of life. This is equivalent to an increase of 3x10¹º. The blue whale is not the longest animal on Earth: that is the bootlace worm (Lineus longissimus), which can reach up to 55 m (180 ft) long. The largest marine animal ever killed by hand harpoon was a blue whale killed at Twofold Bay, New South Wales, Australia, in 1910 that was 29.57 m (97 ft) long.",
+              "position": 3
+            },
+            {
+              "url": "https://en.wikipedia.org/wiki/List_of_largest_mammals",
+              "label": "en.wikipedia.org",
+              "description": "Domestic horses can reach a maximum weight of 1,524 kg (3,360 lb) and shoulder height of 2.2 m (7.2 ft), probably far greater than the sizes attained by the wild horse. The largest prehistoric horse was Equus giganteus of North America. It was estimated to grow around the same size as the aforementioned domestic horse. The largest of the tapirs is the Malayan tapir (Acrocodia indica), the only member of the family outside of South America. Maximum size is about 2.5 m (8.2 ft) in length, 1.2 m (3.9 ft) tall at the shoulder, and up to 540 kg (1,190 lb) in weight. The second largest land mammal ever was Paraceratherium, a member of this order.",
+              "position": 4
+            },
+            {
+              "url": "https://www.thoughtco.com/biggest-mammals-4065678",
+              "label": "thoughtco.com",
+              "description": "The largest land-dwelling mammal on earth, at seven tons, the African elephant is smaller than the blue whale for good reason: The buoyancy of water helps to counteract the blue whale's weight, and elephants are terrestrial. One reason the African elephant has enormous ears is to help dissipate its internal body heat.",
+              "position": 5
+            },
+            {
+              "url": "https://dinoanimals.com/animals/heaviest-land-animals-top-10/",
+              "label": "dinoanimals.com",
+              "description": "However, they are threatened by habitat loss and poaching, and conservation efforts are underway to protect and restore populations of these animals. Sumatran rhinoceros (Dicerorhinus sumatrensis). The Sumatran rhinoceros is a small, herbivorous mammal that is native to the rainforests of Indonesia and Malaysia.",
+              "position": 6
+            },
+            {
+              "url": "https://www.britannica.com/science/What-Is-the-Largest-Animal-on-Earth",
+              "label": "britannica.com",
+              "description": "Encyclopaedia Britannica's editors oversee subject areas in which they have extensive knowledge, whether from years of experience gained by working on that content or via study for an advanced degree.... ... The largest animal on Earth is the blue whale (Balaenoptera musculus). It is also the largest animal to have ever existed. These marine giants can weigh approximately 150 metric tons and stretch over 30 meters (98 feet) in length. There are reports of blue whales reaching lengths of 33 meters and weights of about 200 metric tons.",
+              "position": 7
+            },
+            {
+              "url": "https://safarisafricana.com/heaviest-animals-in-the-world/",
+              "label": "safarisafricana.com",
+              "description": "The heaviest living creatures are all whales (and so also the heaviest mammals in the world). The below measurements are for the largest specimen of each species ever found. Interesting fact, as there are no scales large enough to measure these huge animals, most whales have actually been weighed in parts! ... In terms of absolute size, the blue whale is the largest animal alive today, and the largest that has ever lived, reaching a body length of around 30 meters, and an average weight of around 180 tons.",
+              "position": 8
+            },
+            {
+              "url": "https://www.worldatlas.com/animals/what-is-the-largest-mammal.html",
+              "label": "worldatlas.com",
+              "description": "The blue whale, the largest animal ever, spans 110 feet, weighs 199 tonnes, inhabits oceans globally, and feeds on krill.",
+              "position": 9
+            },
+            {
+              "url": "https://factanimal.com/animal-facts/largest-land-animals-in-the-world/",
+              "label": "factanimal.com",
+              "description": "Again, these animals are commonly shot for their horn, and while they’re consequently listed as vulnerable by the IUCN, their population is finally increasing after concentrated conservation efforts. Indian rhinos number around 4,000, which still isn’t many, and the long gestation periods of 16 to 18 months make them particularly slow to recover. 6 · A 1966 paper listed a top weight of 2,866lb, which was then erroneously cited in kilograms in the Mammalian Species journal in 1994.",
+              "position": 10
+            },
+            {
+              "url": "https://kids.guinnessworldrecords.com/news/2025/10/super-sized-species-meet-the-worlds-biggest-animals",
+              "label": "kids.guinnessworldrecords.com",
+              "description": "The Guinness World Records 2026 book, which is out now, features a special chapter full of record-breaking creatures that will leave you amazed – from beasts longer than a school bus to insects the size of a fist! ✊ · So keep reading to discover some of nature’s largest and most incredible species, and find out what makes them so great. Capybaras are the largest rodents on earth.",
+              "position": 11
+            },
+            {
+              "url": "https://www.jagranjosh.com/general-knowledge/top-largest-animals-in-the-world-1820002884-1",
+              "label": "jagranjosh.com",
+              "description": "SLAT 2026 Admit Card: Test 1 Hall Ticket Releasing Tomorrow at slat-test.org; Details Here 24 mins ago",
+              "position": 12
+            },
+            {
+              "url": "https://www.nationalgeographic.com/animals/mammals/facts/blue-whale",
+              "label": "nationalgeographic.com",
+              "description": "Blue whales are the largest animals ever known to have lived on Earth. These magnificent marine mammals rule the oceans at up to 100 feet long and upwards of 200 tons. Their tongues alone can weigh as much as an elephant.",
+              "position": 13
+            },
+            {
+              "url": "https://animals.howstuffworks.com/animal-facts/question687.htm",
+              "label": "animals.howstuffworks.com",
+              "description": "We know that there are some big aquatic mammals out there, but what about fish? In this case, the prize goes to the whale shark (which is honestly kind of fitting). Whale sharks (Rhincodon typus) have an average length of 40 feet (12.2 meters), and the largest recorded specimen measured 61.7 feet (18.8 meters). ... Most people believe that the largest animals to ever exist on Earth were the dinosaurs.",
+              "position": 14
+            },
+            {
+              "url": "https://interestingengineering.com/lists/8-largest-mammals-on-earth",
+              "label": "interestingengineering.com",
+              "description": "From the blue whale to the African elephant, let’s take a look at the largest mammals on the planet and find out what makes them truly incredible. ... Life on Earth is incredibly diverse, with more than 1.2 million living animal species thriving even in the harshest environments, and another 7.5 million yet to be discovered.",
+              "position": 15
+            },
+            {
+              "url": "https://www.iflscience.com/what-is-the-largest-mammal-ever-to-walk-the-earth-74013",
+              "label": "iflscience.com",
+              "description": "Regardless of the debate, none of these heavyweights come anywhere near the largest animal to ever walk the Earth. It’s not a mammal, but Patagotitan mayorum was undeniably mammoth, stretching 37 meters (121 feet) in length and weighing the equivalent of 10 African elephants.",
+              "position": 16
+            },
+            {
+              "url": "https://www.worldwildlife.org/stories/meet-the-biggest-animal-in-the-world",
+              "label": "worldwildlife.org",
+              "description": "“Antarctic blue whales are the largest animals on Earth and a spectacular wonder to witness in the wild. They are the true Antarctic giants. However, they are critically endangered, very slowly recovering from the impacts of 20th Century whaling. Now, we are working to protect the important foraging areas for blue whales in the Southern Ocean before it’s too late.",
+              "position": 17
+            },
+            {
+              "url": "https://www.dreamstime.com/blue-whale-swimming-deep-ocean-side-view-close-up-captivating-d-render-features-majestic-gracefully-dark-image331941762",
+              "label": "https://www.dreamstime.com/blue-whale-swimming-deep-ocean-side-view-close-up-captivating-d-render-features-majestic-gracefully-dark-image331941762",
+              "description": "Blue Whale Swimming in Deep Ocean, Side View Close-Up Stock ...",
+              "position": 18
+            },
+            {
+              "url": "http://www.oceanlight.com/spotlight.php?img=27308",
+              "label": "http://www.oceanlight.com/spotlight.php?img=27308",
+              "description": "Blue whale underwater closeup photo, Balaenoptera musculus, California",
+              "position": 19
+            },
+            {
+              "url": "https://www.treehugger.com/facts-about-blue-whales-largest-animals-ever-known-earth-4858813",
+              "label": "https://www.treehugger.com/facts-about-blue-whales-largest-animals-ever-known-earth-4858813",
+              "description": "11 Facts About Blue Whales, the Largest Animal on Earth",
+              "position": 20
+            }
+          ],
+          "markdown": "The largest mammal on Earth — and indeed the largest animal that has ever existed — is the blue whale (Balaenoptera musculus).\nThese magnificent marine giants can reach lengths of up to 30 meters (about 100 feet), with the longest reliably recorded specimen measuring around 33 meters. The heaviest verified specimen weighed 190 tonnes (about 418,000 pounds), though some estimates suggest exceptional individuals could have approached or exceeded 200 tonnes.\nHere are some stunning views of these incredible creatures in their natural ocean habitat:\ndreamstime.comoceanlight.com\n\nTo give you a sense of just how massive they are, here's a helpful size comparison showing a blue whale alongside humans, an elephant, and other large animals:\ntreehugger.com11 Facts About Blue Whales, the Largest Animal on Earth\nFor context:\n\nA blue whale's heart alone can weigh as much as a small car (~180 kg).\nIts tongue can weigh as much as an elephant.\nA newborn blue whale calf is already about 7–8 meters long and weighs around 3 tonnes — roughly the size of a large SUV!\n\nBy comparison, the largest land mammal is the African bush elephant, which tops out at around 6–7 tonnes — impressive, but only a fraction of the blue whale's size. The ocean's buoyancy allows these colossal mammals to grow to sizes impossible for land animals.\nBlue whales are currently endangered, but they remain the undisputed heavyweight champions of the animal kingdom! 🐋",
+          "rawResponse": [
+            {
+              "type": "message_start",
+              "message": {
+                "id": "msg_1768139861328_qe2tlu616",
+                "role": "assistant",
+                "model": "auto"
+              }
+            },
+            {
+              "type": "message_delta",
+              "delta": {
+                "content": [
+                  {
+                    "type": "output_text_delta",
+                    "text_delta": "The largest mammal on Earth — and indeed the largest animal that has ever existed — is the blue whale (Balaenoptera musculus).\nThese magnificent marine giants can reach lengths of up to 30 meters (about 100 feet), with the longest reliably recorded specimen measuring around 33 meters. The heaviest verified specimen weighed 190 tonnes (about 418,000 pounds), though some estimates suggest exceptional individuals could have approached or exceeded 200 tonnes.\nHere are some stunning views of these incredible creatures in their natural ocean habitat:\ndreamstime.comoceanlight.com\n\nTo give you a sense of just how massive they are, here's a helpful size comparison showing a blue whale alongside humans, an elephant, and other large animals:\ntreehugger.com11 Facts About Blue Whales, the Largest Animal on Earth\nFor context:\n\nA blue whale's heart alone can weigh as much as a small car (~180 kg).\nIts tongue can weigh as much as an elephant.\nA newborn blue whale calf is already about 7–8 meters long and weighs around 3 tonnes — roughly the size of a large SUV!\n\nBy comparison, the largest land mammal is the African bush elephant, which tops out at around 6–7 tonnes — impressive, but only a fraction of the blue whale's size. The ocean's buoyancy allows these colossal mammals to grow to sizes impossible for land animals.\nBlue whales are currently endangered, but they remain the undisputed heavyweight champions of the animal kingdom! 🐋"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "message_stop",
+              "reason": "end_turn"
+            }
+          ],
+          "searchQueries": [
+            "largest mammal by weight",
+            "largest mammal on Earth 2026",
+            "blue whale underwater side view",
+            "blue whale size comparison with human and other animals",
+            "search_images"
+          ],
+          "model": "auto",
+          "shoppingCards": [],
+          "entities": []
+        }
+      }
+    }
+  ],
+  "endTime": "2026-01-11T13:57:41.331Z"
+}
