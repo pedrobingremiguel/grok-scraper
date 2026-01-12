@@ -66,7 +66,7 @@ if (!request.retryInfo.failedBrowserIds.includes(browserId)) {
   request.retryInfo.failedBrowserIds.push(browserId);
 }
 
-// Request is immediately re-queued (FIFO, no delays):
+// Request is immediately re-queued (FIFO):
 request.state = RequestState.RETRY_PENDING;
 this.queue.push(request);
 
@@ -77,7 +77,7 @@ const browser = await browserPool.acquire(request.retryInfo.failedBrowserIds);
 
 ### 3. Dynamic Backpressure
 
-**Decision:** `threshold = browserPoolSize × multiplier` (default: 4 × 5 = 20)  
+**Decision:** `threshold = browserPoolSize × multiplier`  
 **Rationale:** Prevents queue overflow under heavy load while maintaining throughput  
 **Behavior:**
 
@@ -201,7 +201,7 @@ The project includes two test suites with different scale profiles:
 
 ### Standard Test (Quick Validation)
 
-**Profile:** 16 requests, 4 concurrent
+**Profile:** total 16 requests, batch, 4 browser pool
 
 ```bash
 npm run dev # Setup
@@ -212,7 +212,7 @@ npm run test:api # Run test
 
 ### Large-Scale Test (Production Validation)
 
-**Profile:** 1200 requests, 20 concurrent, 95% success target, 1000+ minimum successes
+**Profile:** total 1200 requests, continuous 8 req/s 95% success target, 10-browser pool
 
 ```bash
 npm run start # Setup
@@ -334,10 +334,10 @@ tests/                         # Test Infrastructure
 - Request Throughput: 0.133 req/s, ~8 req/min
 - Browser Pool: 10 browsers
 - Target Success: 95%+ (1140+ successful requests)
-- Test Duration: 8260 seconds (~2.3 hours)
 
 **Actual Results:**
 
+- Test Duration: 8260 seconds (~2.3 hours)
 - Success Rate: 99.5% (1194/1200 requests)
 - Average Latency: 44.4 seconds
 - P50 Latency: 34.3 seconds
@@ -348,10 +348,9 @@ tests/                         # Test Infrastructure
 
 **Capacity Analysis:**
 
-- Per-browser throughput: ~0.018 req/s (based on observed 0.145 req/s ÷ 8 browsers)
-- 8-browser capacity: ~0.145 req/s sustained throughput
+- 10-browser capacity: ~0.145 req/s sustained throughput (~8.7 req/min)
 - Latency range: 7.4s - 165.4s (wide variance due to rate limiting)
-- Backpressure threshold: 40 queued requests (8 × multiplier of 5)
+- Backpressure threshold: 50 queued requests (10 × multiplier of 5)
 
 **Format Compliance:**
 
